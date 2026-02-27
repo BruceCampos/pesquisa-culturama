@@ -13,8 +13,8 @@
   </header>
   <section>
     <form action="" method="get">
-      <!-- <fieldset>
-         DADOS PESSOAIS 
+      <fieldset>
+        <!-- DADOS PESSOAIS -->
         <label for="userName">Nome</label>
         <input type="text" name="userName" required>
         <br>
@@ -28,12 +28,12 @@
         <input type="email" name="userEmail" required>
         <br>
         <label for="userPhoneNumber">Telefone</label>
-        <input type="tel" name="userPhoneNumber" pattern="[0-9]" placeholder="DDD + numero sem espaços ou hífen" >
+        <input type="tel" name="userPhoneNumber" pattern="[0-9]" placeholder="DDD + numero sem espaços ou hífen">
         <br>
         <label for="userImage">Upload de foto</label>
         <input type="file" accept="image/*" name="userImage">
         <br>
-      </fieldset> -->
+      </fieldset>
 
       <fieldset>
         <legend>Perfil</legend>
@@ -54,6 +54,38 @@
           <option value="uniaoEstavel">União estável</option>
         </select>
       </fieldset>
+      <label for="userState">Estado:</label>
+      <select name="userState">
+        <option value="notInformed">Selecione...</option>
+        <option value="Acre">AC, Acre</option>
+        <option value="Alagoas">AL, Alagoas</option>
+        <option value="Amapá">AP, Amapá</option>
+        <option value="Amazonas">AM, Amazonas</option>
+        <option value="Bahia">BA, Bahia</option>
+        <option value="Ceará">CE, Ceará</option>
+        <option value="Distrito Federal">DF, Distrito Federal</option>
+        <option value="Espirito Santo">ES, Espirito Santo</option>
+        <option value="Goiás">GO, Goiás</option>
+        <option value="Maranhão">MA, Maranhão</option>
+        <option value="Mato Grosso do Sul">MS, Mato Grosso do Sul</option>
+        <option value="Mato Grosso">MT, Mato Grosso</option>
+        <option value="Minas Gerais">MG, Minas Gerais</option>
+        <option value="Pará">PA, Pará</option>
+        <option value="Paraíba">PB, Paraíba</option>
+        <option value="Paraná">PR, Paraná</option>
+        <option value="Pernambuco">PE, Pernambuco</option>
+        <option value="Piauí">PI, Piauí</option>
+        <option value="Rio de Janeiro">RJ, Rio de Janeiro</option>
+        <option value="Rio Grande do Norte">RN, Rio Grande do Norte</option>
+        <option value="Rio Grande do Sul">RS, Rio Grande do Sul</option>
+        <option value="Rondônia">RO, Rondônia</option>
+        <option value="Roraima">RR, Roraima</option>
+        <option value="Santa Catarina">SC, Santa Catarina</option>
+        <option value="São Paulo">SP, São Paulo</option>
+        <option value="Sergipe">SE, Sergipe</option>
+        <option value="Tocantins">TO, Tocantins</option>
+      </select>
+
       <button type="submit">Enviar</button>
 
     </form>
